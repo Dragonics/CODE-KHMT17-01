@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style> 
+        div {  width: 100px;
+          height: 100px;
+          background: purple;
+          transition: width 5s;
+        }
+        div:hover  {  
+          width: 500px;
+        }
+        #ease {transition-timing-function: ease;}
+        #linear {transition-timing-function: linear;}
+        #ease-in {transition-timing-function: ease-in;}
+        #ease-out {transition-timing-function: ease-out;}
+        #ease-in-out {transition-timing-function: ease-in-out;}
+    </style>
+  </head>
+  <body>
+    <div id="ease"> EASE 
+    </div>
+    <p></p>
+    <div id="linear"> LINEAR
+    </div>
+    <p></p>
+    <div id="ease-in"> EASE-IN
+    </div>
+    <p></p>
+    <div id="ease-out"> EASE-OUT
+    </div>
+    <p></p>
+    <div id="ease-in-out"> EASE-IN-OUT
+    </div>
+  </body>
+  </html>
